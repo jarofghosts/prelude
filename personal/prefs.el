@@ -7,6 +7,8 @@
 ;; be moar like vim + ctrlp plz
 (define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
 
+(evil-leader/set-leader "<SPC>")
+
 ;; wombat is nice
 (load-theme 'wombat t)
 
